@@ -6,8 +6,8 @@ import { useCarrinhoContext } from "@/hooks/useCarrinhoContext";
 
 const ItemCarrinhoSuspenso = ({ itemCarrinho }) => {
   const { adicionarProduto } = useCarrinhoContext();
-  const { removerProduto } = useCarrinhoContext();
-  const { removerProdutoCarrinho } = useCarrinhoContext();
+  const { removerProduto, removerProdutoCarrinho } = useCarrinhoContext();
+  
 
   return (
     <li>
